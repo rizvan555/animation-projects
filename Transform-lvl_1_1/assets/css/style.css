@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  margin: 100px 300px;
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  border-radius: 10px;
+  transition: transform 1s ease;
+  transform-origin: left ;
+  transform: rotate(0deg);
+}
+
+.box:hover {
+  transform-origin: left ;
+  transform: rotate(90deg);
+}

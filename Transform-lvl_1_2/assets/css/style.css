@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  gap: 10vw;
+}
+.box-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 30vh;
+  background-color: green;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+}
+.box1 {
+  transition: all 1s ease;
+}
+.box1:hover {
+  transform: translate(50px, 50px);
+}
+.box2 {
+  transition: all 1s ease;
+}
+.box2:hover {
+  transform: translateX(-100px);
+}
+.box3 {
+  transition: all 1s ease;
+}
+.box3:hover {
+  transform: translateY(100px);
+}
+.box4 {
+  transition: all 1s ease;
+}
+.box4:hover {
+  transform: rotate(45deg);
+}
+.box5 {
+  transition: all 1s ease;
+}
+.box5:hover {
+  transform: scale(1.2);
+}
+.box6 {
+  transition: all 1s ease;
+}
+.box6:hover {
+  transform: skew(30deg);
+}
