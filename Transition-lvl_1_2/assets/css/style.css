@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#box-container {
+  position: relative;
+  margin: 200px;
+  background-color: #e5e5e5;
+  height: 35vh;
+}
+#box-container:hover div {
+  left: 90%;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  transition: all 4s ease-in-out;
+  left: 0;
+}
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  transition: all 2s 1s ease-in-out;
+  transform: translateY(120px);
+  left: 0;
+}
