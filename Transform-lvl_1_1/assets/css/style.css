@@ -10,11 +10,11 @@
   background-color: tomato;
   border-radius: 10px;
   transition: transform 1s ease;
-  transform-origin: left ;
+  transform-origin: left bottom;
   transform: rotate(0deg);
 }
 
 .box:hover {
-  transform-origin: left ;
+  transform-origin: left bottom;
   transform: rotate(90deg);
 }
